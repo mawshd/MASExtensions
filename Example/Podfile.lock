@@ -1,0 +1,16 @@
+PODS:
+  - MASExtensions (1.0.0)
+
+DEPENDENCIES:
+  - MASExtensions (from `../`)
+
+EXTERNAL SOURCES:
+  MASExtensions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MASExtensions: 03606845915dd48662484add256123fd9e577a0f
+
+PODFILE CHECKSUM: bdb21c696e36ec39e480d3058ad6cfd97f9b22b6
+
+COCOAPODS: 1.9.1

@@ -1,29 +1,38 @@
 # MASExtensions
-
-[![CI Status](https://img.shields.io/travis/awais.shahid/MASExtensions.svg?style=flat)](https://travis-ci.org/awais.shahid/MASExtensions)
-[![Version](https://img.shields.io/cocoapods/v/MASExtensions.svg?style=flat)](https://cocoapods.org/pods/MASExtensions)
-[![License](https://img.shields.io/cocoapods/l/MASExtensions.svg?style=flat)](https://cocoapods.org/pods/MASExtensions)
-[![Platform](https://img.shields.io/cocoapods/p/MASExtensions.svg?style=flat)](https://cocoapods.org/pods/MASExtensions)
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+This is Swift Library for Generic extensions.
 
 ## Installation
 
-MASExtensions is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### CocoaPods
+
+[CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like `AWSPlacePicker` in your projects. 
+
+First, add the following line to your [Podfile](http://guides.cocoapods.org/using/using-cocoapods.html):
 
 ```ruby
 pod 'MASExtensions'
 ```
 
-## Author
+Second, install `MASExtensions` into your project:
 
-awais.shahid, awaiss@theentertainerasia.com
+```ruby
+pod install
+```
+
+## Usage
+
+Import Library into View Controller Where you want to use utilities
+
+```ruby
+import MASExtensions
+```
+Than start using like 
+```ruby
+Date().toString(formatter: .fullDescriptive)
+```
+
+Keep enjoying
 
 ## License
 
-MASExtensions is available under the MIT license. See the LICENSE file for more info.
+`MASExtensions` is distributed under the terms and conditions of the [MIT license]
